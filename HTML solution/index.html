@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Pokemon</title>
+        <link href='./style.css' type='text/css' rel='stylesheet'>
+        <script src='./pokemon.js'>
+        </script>
+    </head>
+    <body>
+        <h1>O Ash quer apanhar Pokemons, que caminho deve seguir hoje?</h1>
+        <input id='moves' type='text'></input>
+        <br>
+        <button id='apanhar' onclick="apanhaTodos(document.getElementById('moves').value)">Catch 'em all!</button>
+        <h2>Apanhou:</h2>
+        <h2 id='result'></h2>
+    </body>
+</html>
